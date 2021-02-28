@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+html, body{
+    margin: 0px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: blanchedalmond;
+}
+
+#container{
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    background-color: darkcyan;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    border: 2px solid rgb(40, 190, 190);
+}
+
+#navHeading{
+    color: blanchedalmond;
+    font-weight: 900;
+    -webkit-text-stroke: 0.01px;
+    -webkit-text-stroke-color: rgb(219, 197, 163);
+}
+
+#navHeading:hover{
+    cursor: pointer;
+}
+
+#searchBar{
+    width: 50%;
+    margin-right: 8px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(40, 190, 190);
+    outline: none;
+}
+
+#searchBar:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(27, 190, 27);
+    transition: 0.5s;
+}
+
+#searchBtn{
+    border-style: solid;
+    border-color: rgb(40, 190, 190);
+    border-radius: 10px;
+    outline: none;
+}
+
+#searchBtn:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(27, 190, 27);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+hr{
+    width: 80%;
+    color: darkcyan;
+}
+
+#pageHeading{
+    position: relative;
+    width: 90%;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    color: darkcyan;
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: rgb(8, 47, 78);
+}
+
+#Note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#addedNote{
+    width: 500px;
+    height: 100px;
+    outline: none;
+}
+
+#addNoteBtn{
+    margin-top: 10px;
+    width: 100px;
+    border-style: solid;
+    border-color: rgb(40, 190, 190);
+    border-radius: 10px;
+    outline: none;
+}
+
+#addNoteBtn:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(27, 190, 27);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#diaryNotes{
+    display: flex;
+    flex-direction: column;
+}
+
+#diaryHeading{
+    position: relative;
+    left: 50px;
+    width: 90%;
+    font-size: 30px;
+    font-weight: 900;
+    color: darkcyan;
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: rgb(8, 47, 78);
+}
+
+#cardArea{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-top: 20px;
+    display: flex;
+    background-color: darkcyan;
+    width: 150px;
+    height: 200px;
+    flex-direction: column;
+    border-radius: 6px;
+    border: 2px solid rgb(40, 190, 190);
+}
+
+.cardHeading{
+    color: blanchedalmond;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.cardData{
+    color: blanchedalmond;
+    margin-left: 4px;
+    margin-right: 2px;
+}
+
+.cardDeleteBtn{
+    margin-top: 10px;
+    width: 100px;
+    border-style: solid;
+    border-color: rgb(40, 190, 190);
+    border-radius: 10px;
+    outline: none;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.cardDeleteBtn:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(27, 190, 27);
+    transition: 0.5s;
+    cursor: pointer;
+}
