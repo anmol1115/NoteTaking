@@ -24,6 +24,9 @@ function showCard(){
         cardArea.removeChild(cardArea.firstChild)
     }
     notes = JSON.parse(localStorage.getItem('notes'))
+    if(notes==null){
+        return
+    }
     notes.forEach(function(item, index){
         let card = document.createElement('div')
         card.className = 'card'
